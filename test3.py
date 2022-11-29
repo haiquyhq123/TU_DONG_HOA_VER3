@@ -142,7 +142,7 @@ def user_not_found():
     Label(user_not_found_screen, text="User Not Found").pack()
     Button(user_not_found_screen, text="OK", command=delete_user_not_found_screen).pack()
 
-# Deleting popups
+# Deleting popups and new pop up window
 
 def delete_login_success():
     login_success_screen.destroy()
