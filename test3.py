@@ -11,6 +11,7 @@ import tkinter.messagebox as mbox
 import time
 import pyautogui as au
 import pyautogui, sys
+# duong dan thu muc
 OUTPUT_PATH = Path(__file__).parent
 ASSETS_PATH = OUTPUT_PATH / Path(r"/home/haiquy/OnlineJudgeDeploy/build2/assets/frame0")
 def relative_to_assets(path: str) -> Path:
@@ -148,6 +149,7 @@ def delete_login_success():
     login_success_screen.destroy()
     login_screen.destroy()
     main_screen.destroy()
+    # 151 -> 203 Phan tu dong Hoa
     def lenh():
         mbox.askyesnocancel(title="XAC NHAN LAI",message="BAN CO MUON TIEP TUC")
         au.hotkey('ctrl', 'alt', 't')
